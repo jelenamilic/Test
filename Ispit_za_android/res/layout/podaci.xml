@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <Button
+        android:id="@+id/zatvori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Zatvori" />
+
+    <TextView
+        android:id="@+id/prikazIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:text="ime" />
+
+    <TextView
+        android:id="@+id/prikazGrad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prikazPrezime"
+        android:layout_below="@+id/prikazAdresa"
+        android:text="grad" />
+
+    <TextView
+        android:id="@+id/prikazPrezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prikazIme"
+        android:layout_below="@+id/prikazIme"
+        android:text="prezime" />
+
+    <TextView
+        android:id="@+id/prikazAdresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prikazPrezime"
+        android:layout_below="@+id/prikazPrezime"
+        android:text="adresa" />
+
+    <TextView
+        android:id="@+id/prikazBrojtel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prikazOib"
+        android:layout_below="@+id/prikazOib"
+        android:text="telefon" />
+
+    <TextView
+        android:id="@+id/prikazSpol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prikazBrojtel"
+        android:layout_below="@+id/prikazBrojtel"
+        android:text="spol" />
+
+    <TextView
+        android:id="@+id/prikazOib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prikazGrad"
+        android:layout_below="@+id/prikazGrad"
+        android:text="oib" />
+
+    <TextView
+        android:id="@+id/daLiZelite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zatvori"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:text="Da li želite upisati još jednog korisnika?" />
+
+    <Button
+        android:id="@+id/btnDa"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zatvori"
+        android:layout_marginBottom="38dp"
+        android:layout_toRightOf="@+id/prikazPrezime"
+        android:text="Da" />
+
+    <Button
+        android:id="@+id/btnNe"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnDa"
+        android:layout_alignBottom="@+id/btnDa"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/zatvori"
+        android:text="Ne" />
+
+</RelativeLayout>

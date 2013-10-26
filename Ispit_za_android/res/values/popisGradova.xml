@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gradovi">
+        <item>Zagreb</item>
+        <item>Split</item>
+        <item>Rijeka</item>
+        <item>Osijek</item>
+        <item>Zadar</item>
+        <item>Slavonski Brod</item>
+        <item>Pula</item>
+        <item>Varaždin</item>
+        <item>Karlovac</item>
+        <item>Vukovar</item>
+        </string-array>
+</resources>

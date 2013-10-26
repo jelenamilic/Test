@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_ispit</string>
+    <string name="action_settings">Settings</string>
+    <string name= "unesite_ime" >Unesite ime: </string>
+    <string name= "unesite_prezime"> Unesite prezime: </string >
+    <string name= "unesite_adresu"> Unesite adresu: </string >
+    <string name= "unesite_grad"> Unesite grad: </string >
+    <string name= "unesite_oib"> Unesite oib: </string >
+    <string name= "unesite_brojtelefona"> Unesite broj telefona: </string >
+    <string name= "odaberite_spol"> Odaberite spol: </string >
+    
+</resources>
